@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>863ADDD6-D34E-49A5-8AC0-C89DF60E9996</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LongPressGesture</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>73B64838DAFA4BD05887365499E3D682C0CF0179</key>
+		<string>https://github.com/ppei/LongPressGestureDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LongPressGesture/LongPressGesture.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>73B64838DAFA4BD05887365499E3D682C0CF0179</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ppei/LongPressGestureDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>73B64838DAFA4BD05887365499E3D682C0CF0179</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>73B64838DAFA4BD05887365499E3D682C0CF0179</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LongPressGestureDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

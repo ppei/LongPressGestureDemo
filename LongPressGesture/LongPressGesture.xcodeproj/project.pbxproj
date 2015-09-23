@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF2443F1BB2ED900097EA1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2443E1BB2ED900097EA1C /* AppDelegate.swift */; };
+		FAF244411BB2ED900097EA1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF244401BB2ED900097EA1C /* ViewController.swift */; };
+		FAF244441BB2ED900097EA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF244421BB2ED900097EA1C /* Main.storyboard */; };
+		FAF244461BB2ED900097EA1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF244451BB2ED900097EA1C /* Images.xcassets */; };
+		FAF244491BB2ED900097EA1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF244471BB2ED900097EA1C /* LaunchScreen.xib */; };
+		FAF244551BB2ED900097EA1C /* LongPressGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF244541BB2ED900097EA1C /* LongPressGestureTests.swift */; };
+		FAF2445F1BB2F3010097EA1C /* qiangu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAF2445E1BB2F3010097EA1C /* qiangu.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF2444F1BB2ED900097EA1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF244311BB2ED900097EA1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF244381BB2ED900097EA1C;
+			remoteInfo = LongPressGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF244391BB2ED900097EA1C /* LongPressGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPressGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF2443D1BB2ED900097EA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF2443E1BB2ED900097EA1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF244401BB2ED900097EA1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF244431BB2ED900097EA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF244451BB2ED900097EA1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAF244481BB2ED900097EA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAF2444E1BB2ED900097EA1C /* LongPressGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF244531BB2ED900097EA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF244541BB2ED900097EA1C /* LongPressGestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureTests.swift; sourceTree = "<group>"; };
+		FAF2445E1BB2F3010097EA1C /* qiangu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qiangu.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF244361BB2ED900097EA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2444B1BB2ED900097EA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF244301BB2ED900097EA1C = {
+			isa = PBXGroup;
+			children = (
+				FAF2443B1BB2ED900097EA1C /* LongPressGesture */,
+				FAF244511BB2ED900097EA1C /* LongPressGestureTests */,
+				FAF2443A1BB2ED900097EA1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF2443A1BB2ED900097EA1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF244391BB2ED900097EA1C /* LongPressGesture.app */,
+				FAF2444E1BB2ED900097EA1C /* LongPressGestureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF2443B1BB2ED900097EA1C /* LongPressGesture */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2443E1BB2ED900097EA1C /* AppDelegate.swift */,
+				FAF244401BB2ED900097EA1C /* ViewController.swift */,
+				FAF244421BB2ED900097EA1C /* Main.storyboard */,
+				FAF2445E1BB2F3010097EA1C /* qiangu.jpeg */,
+				FAF244451BB2ED900097EA1C /* Images.xcassets */,
+				FAF244471BB2ED900097EA1C /* LaunchScreen.xib */,
+				FAF2443C1BB2ED900097EA1C /* Supporting Files */,
+			);
+			path = LongPressGesture;
+			sourceTree = "<group>";
+		};
+		FAF2443C1BB2ED900097EA1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2443D1BB2ED900097EA1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF244511BB2ED900097EA1C /* LongPressGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF244541BB2ED900097EA1C /* LongPressGestureTests.swift */,
+				FAF244521BB2ED900097EA1C /* Supporting Files */,
+			);
+			path = LongPressGestureTests;
+			sourceTree = "<group>";
+		};
+		FAF244521BB2ED900097EA1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF244531BB2ED900097EA1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF244381BB2ED900097EA1C /* LongPressGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF244581BB2ED900097EA1C /* Build configuration list for PBXNativeTarget "LongPressGesture" */;
+			buildPhases = (
+				FAF244351BB2ED900097EA1C /* Sources */,
+				FAF244361BB2ED900097EA1C /* Frameworks */,
+				FAF244371BB2ED900097EA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongPressGesture;
+			productName = LongPressGesture;
+			productReference = FAF244391BB2ED900097EA1C /* LongPressGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF2444D1BB2ED900097EA1C /* LongPressGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF2445B1BB2ED900097EA1C /* Build configuration list for PBXNativeTarget "LongPressGestureTests" */;
+			buildPhases = (
+				FAF2444A1BB2ED900097EA1C /* Sources */,
+				FAF2444B1BB2ED900097EA1C /* Frameworks */,
+				FAF2444C1BB2ED900097EA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF244501BB2ED900097EA1C /* PBXTargetDependency */,
+			);
+			name = LongPressGestureTests;
+			productName = LongPressGestureTests;
+			productReference = FAF2444E1BB2ED900097EA1C /* LongPressGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF244311BB2ED900097EA1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Pei Pei";
+				TargetAttributes = {
+					FAF244381BB2ED900097EA1C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FAF2444D1BB2ED900097EA1C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FAF244381BB2ED900097EA1C;
+					};
+				};
+			};
+			buildConfigurationList = FAF244341BB2ED900097EA1C /* Build configuration list for PBXProject "LongPressGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF244301BB2ED900097EA1C;
+			productRefGroup = FAF2443A1BB2ED900097EA1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF244381BB2ED900097EA1C /* LongPressGesture */,
+				FAF2444D1BB2ED900097EA1C /* LongPressGestureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF244371BB2ED900097EA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2445F1BB2F3010097EA1C /* qiangu.jpeg in Resources */,
+				FAF244441BB2ED900097EA1C /* Main.storyboard in Resources */,
+				FAF244491BB2ED900097EA1C /* LaunchScreen.xib in Resources */,
+				FAF244461BB2ED900097EA1C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2444C1BB2ED900097EA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF244351BB2ED900097EA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF244411BB2ED900097EA1C /* ViewController.swift in Sources */,
+				FAF2443F1BB2ED900097EA1C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2444A1BB2ED900097EA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF244551BB2ED900097EA1C /* LongPressGestureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF244501BB2ED900097EA1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF244381BB2ED900097EA1C /* LongPressGesture */;
+			targetProxy = FAF2444F1BB2ED900097EA1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF244421BB2ED900097EA1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF244431BB2ED900097EA1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF244471BB2ED900097EA1C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF244481BB2ED900097EA1C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF244561BB2ED900097EA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF244571BB2ED900097EA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF244591BB2ED900097EA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LongPressGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF2445A1BB2ED900097EA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LongPressGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAF2445C1BB2ED900097EA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LongPressGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongPressGesture.app/LongPressGesture";
+			};
+			name = Debug;
+		};
+		FAF2445D1BB2ED900097EA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LongPressGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongPressGesture.app/LongPressGesture";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF244341BB2ED900097EA1C /* Build configuration list for PBXProject "LongPressGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF244561BB2ED900097EA1C /* Debug */,
+				FAF244571BB2ED900097EA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF244581BB2ED900097EA1C /* Build configuration list for PBXNativeTarget "LongPressGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF244591BB2ED900097EA1C /* Debug */,
+				FAF2445A1BB2ED900097EA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF2445B1BB2ED900097EA1C /* Build configuration list for PBXNativeTarget "LongPressGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2445C1BB2ED900097EA1C /* Debug */,
+				FAF2445D1BB2ED900097EA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF244311BB2ED900097EA1C /* Project object */;
+}
