@@ -16,22 +16,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qiangu.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Fz4-Oa-P6T">
-                                <rect key="frame" x="164" y="121" width="272" height="358"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aqf-Xl-0VY">
+                                <rect key="frame" x="148" y="117" width="305" height="366"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qiangu.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Fz4-Oa-P6T">
+                                        <rect key="frame" x="16" y="4" width="272" height="358"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="272" id="8cl-b2-0vO"/>
+                                            <constraint firstAttribute="height" constant="358" id="N7u-jI-OFO"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="272" id="8cl-b2-0vO"/>
-                                    <constraint firstAttribute="height" constant="358" id="N7u-jI-OFO"/>
+                                    <constraint firstItem="Fz4-Oa-P6T" firstAttribute="centerX" secondItem="aqf-Xl-0VY" secondAttribute="centerX" id="7e6-BC-uRI"/>
+                                    <constraint firstItem="Fz4-Oa-P6T" firstAttribute="centerY" secondItem="aqf-Xl-0VY" secondAttribute="centerY" id="BmL-Su-4d8"/>
+                                    <constraint firstAttribute="width" constant="305" id="DR7-Jf-ywH"/>
+                                    <constraint firstAttribute="height" constant="366" id="H2n-4J-vtG"/>
                                 </constraints>
-                            </imageView>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="FeR-m5-9t4" appends="YES" id="09R-gz-zWC"/>
+                                    <outletCollection property="gestureRecognizers" destination="oqZ-QV-Szt" appends="YES" id="Wmr-Mp-nNQ"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="Fz4-Oa-P6T" secondAttribute="centerY" id="KMh-gh-sqz"/>
-                            <constraint firstAttribute="centerX" secondItem="Fz4-Oa-P6T" secondAttribute="centerX" id="n3V-ve-cSh"/>
+                            <constraint firstAttribute="centerY" secondItem="aqf-Xl-0VY" secondAttribute="centerY" id="QiL-ys-zDV"/>
+                            <constraint firstAttribute="centerX" secondItem="aqf-Xl-0VY" secondAttribute="centerX" id="ZBR-Zs-86W"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="FeR-m5-9t4">
+                    <connections>
+                        <action selector="handleLongPre:" destination="vXZ-lx-hvc" id="QHT-zJ-XYy"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <tapGestureRecognizer id="oqZ-QV-Szt">
+                    <connections>
+                        <action selector="handTap:" destination="vXZ-lx-hvc" id="Ygr-nM-IR5"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>
